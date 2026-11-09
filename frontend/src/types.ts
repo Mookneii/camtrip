@@ -1,9 +1,10 @@
 
 export interface Destination {
-  id: number;
-  name: string;
-  province: string;
-  description: string;
-  estimatedCost: number;
-  image: string;
+  id: number
+  categoryId: number
+  name: string
+  province: string
+  description: string
+  estimatedCost: number
+  imageUrl: string
 }

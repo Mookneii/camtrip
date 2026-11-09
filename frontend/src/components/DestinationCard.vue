@@ -14,7 +14,7 @@ const emit = defineEmits<{
 <template>
   <article class="card">
     <img
-      :src="destination.image"
+      :src="destination.imageUrl"
       :alt="destination.name"
     />
 

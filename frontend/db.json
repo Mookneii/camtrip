@@ -1,0 +1,107 @@
+
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Moni",
+      "email": "moni@example.com",
+      "passwordHash": "demo-hash-traveler",
+      "role": "TRAVELER",
+      "createdAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "email": "admin@camtrip.com",
+      "passwordHash": "demo-hash-admin",
+      "role": "ADMIN",
+      "createdAt": "2026-11-01T08:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Historical Sites",
+      "description": "Historical buildings and cultural heritage."
+    },
+    {
+      "id": 2,
+      "name": "Nature",
+      "description": "Mountains, waterfalls and natural attractions."
+    },
+    {
+      "id": 3,
+      "name": "Beach",
+      "description": "Beaches and coastal destinations."
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Angkor Wat",
+      "province": "Siem Reap",
+      "description": "Explore Cambodia's famous ancient temple complex.",
+      "estimatedCost": 50,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/1280px-Angkor_Wat.jpg"
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "name": "Bokor Mountain",
+      "province": "Kampot",
+      "description": "Enjoy beautiful mountain scenery and fresh air.",
+      "estimatedCost": 35,
+      "imageUrl": "https://www.flexibletourism.com/userfiles/thumbs/Seahorse.jpg"
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "name": "Kep Beach",
+      "province": "Kep",
+      "description": "Relax by the beach and enjoy fresh seafood.",
+      "estimatedCost": 30,
+      "imageUrl": "https://www.novo-monde.com/app/uploads/2023/07/kep-cambodia-2-1024x683.jpg"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Kulen Mountain",
+      "province": "Siem Reap",
+      "description": "Discover waterfalls and beautiful natural scenery.",
+      "estimatedCost": 25,
+      "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Kampot Weekend Trip",
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-12",
+      "budget": 150,
+      "createdAt": "2026-11-01T09:00:00.000Z"
+    }
+  ],
+  "tripItems": [
+    {
+      "id": 1,
+      "tripId": 1,
+      "placeId": 2,
+      "visitDate": "2026-12-10",
+      "visitOrder": 1,
+      "estimatedCost": 35,
+      "notes": "Visit Bokor Mountain in the morning."
+    },
+    {
+      "id": 2,
+      "tripId": 1,
+      "placeId": 3,
+      "visitDate": "2026-12-11",
+      "visitOrder": 1,
+      "estimatedCost": 30,
+      "notes": "Relax at Kep Beach and enjoy seafood."
+    }
+  ]
+}
